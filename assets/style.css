@@ -1,0 +1,227 @@
+/* Resets the box size of every element */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* Changes the background color of the body */
+body {
+    background-color: #d9dcd6;
+}
+/* Adjusts style of header */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+/* Changes the font size and display of h1 elements within header */
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+/* Changes the colors of the character 'seo' in the header title */
+.header h1 .seo {
+    color: #d9dcd6;
+}
+
+/* Adjusts style of header container */
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+/* Floats container to the right*/
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+}
+
+.header div ul {
+/* Removes bullets from list */
+    list-style-type: none;
+}
+
+/* Adjusts style of list in header */
+.header div ul li {
+    display: inline;
+    margin-left: 25px;
+    font-size: 18px;
+}
+
+a {
+    color: #ffffff;
+/* Removes underlines signaling text is link */
+    text-decoration: none;
+}
+
+p {
+/* Adjust font size of text to 16 px */
+    font-size: 16px;
+}
+
+/* Adjusts style of background image */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.float-left {
+/* Floats image to the left of container */
+    float: left;
+/* Adjusts right margin image to 25 px */
+    margin-right: 25px;
+}
+
+.float-right {
+/* Floats image to the right of container */
+    float: right;
+    margin-left: 25px;
+}
+/* Adjusts style of benefits container */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+/* Adjusts style of benefits container */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+/* Adjusts style of benefits lead container */
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/* Adjusts style of benefits brand container */
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/* Adjusts style of benefits cost container */
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/* Adjusts style of benefits lead container header */
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* Adjusts style of benefits brand container header */
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* Adjusts style of benefits cost container header */
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* Adjusts style of benefits lead image */
+.benefit-lead img {
+    display: block;
+/* Shortcut method sets top and bottom padding to 10px and left and right to auto */
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* Adjusts style of benefits brand image */
+.benefit-brand img {
+/* Diplays image as block on lower line and sets margin */ 
+    display: block;
+/* Shortcut method sets top and bottom padding to 10px and left and right to auto */
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* Adjusts style of benefits cost image */
+.benefit-cost img {
+/* Diplays image as block on lower line and sets margin */ 
+    display: block;
+/* Shortcut method sets top and bottom padding to 10px and left and right to auto */
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* Adjusts style of search-engine-optimization container */
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: ''Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif';
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* Adjusts style of online-reputation-management container */
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+/* Adjusts style of social-media-marketing container */
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.search-engine-optimization img {
+/* Adjusts maximum height of image to 200px */
+    max-height: 200px;
+}
+/* Adjusts style of online-reputation-management image */
+.online-reputation-management img {
+/* Adjusts maximum height of image to 200px */
+    max-height: 200px;
+}
+/* Adjusts style of social-media-marketing image */
+.social-media-marketing img {
+/* Adjusts maximum height of image to 200px */
+    max-height: 200px;
+}
+
+.search-engine-optimization h2 {
+/* Adjusts margin bottom to 20px */ 
+    margin-bottom: 20px;
+/* Adjusts font-size to 36px */ 
+    font-size: 36px;
+}
+
+.online-reputation-management h2 {
+/* Adjusts margin bottom to 20px */ 
+    margin-bottom: 20px;
+/* Adjusts font-size to 36px */     
+    font-size: 36px;
+}
+
+.social-media-marketing h2 {
+/* Adjusts margin bottom to 20px */ 
+    margin-bottom: 20px;
+/* Adjusts font-size to 36px */ 
+    font-size: 36px;
+}
+/* Aligns the text in footer to center and assigns font family */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+/* Changes the font size of the h2 element in footer to 20px  */
+    font-size: 20px;
+}
