@@ -98,8 +98,9 @@ You are required to submit the following for review:
 
 * The URL of the GitHub repository, with a unique name and a README that describes the project.
 
-## Screenshot
-
-
+## Screenshots of Final Product
+Screen Shot 2021-07-03 at 4.31.12 PM<img width="1906" alt="Screen Shot 2021-07-03 at 4 31 12 PM" src="https://user-images.githubusercontent.com/85324175/124366415-bb54ef00-dc1d-11eb-9247-af3a33e0762a.png">
+Screen Shot 2021-07-03 at 4.31.36 PM<img width="1906" alt="Screen Shot 2021-07-03 at 4 31 36 PM" src="https://user-images.githubusercontent.com/85324175/124366419-c7d94780-dc1d-11eb-89b7-bf758d17a5cc.png">
+Screen Shot 2021-07-03 at 4.31.57 PM<img width="1907" alt="Screen Shot 2021-07-03 at 4 31 57 PM" src="https://user-images.githubusercontent.com/85324175/124366424-ce67bf00-dc1d-11eb-80b2-9b78aa24d3ce.png">
 ---
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+
